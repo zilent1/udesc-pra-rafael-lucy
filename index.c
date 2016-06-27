@@ -100,7 +100,7 @@ void lucy_index(const char *url) {
     lucy_bootstrap_parcel();
 
     String *folder   = Str_newf("%s", path_to_index);
-    String *language = Str_newf("en");
+    String *language = Str_newf("pt");
     Simple *lucy     = Simple_new((Obj*)folder, language);
 
     printf("Parsing: %s\n",outFile);
