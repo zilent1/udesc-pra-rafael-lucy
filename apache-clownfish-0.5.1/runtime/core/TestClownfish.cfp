@@ -1,0 +1,8 @@
+{
+    "name": "TestClownfish",
+    "nickname": "TestCfish",
+    "version": "v0.5.1",
+    "prerequisites": {
+        "Clownfish": "v0.5.1"
+    }
+}
